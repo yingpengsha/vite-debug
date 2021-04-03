@@ -1,0 +1,15 @@
+{
+  "name": "vite-debug",
+  "version": "1.0.0",
+  "description": "for debug vite",
+  "main": "index.js",
+  "scripts": {
+    "start": "vite",
+    "debug": "node --inspect-brk ./node_modules/vite/bin/vite.js"
+  },
+  "author": "Pengsha Ying",
+  "license": "MIT",
+  "dependencies": {
+    "vite": "^2.1.5"
+  }
+}
